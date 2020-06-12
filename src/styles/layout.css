@@ -1,0 +1,24 @@
+.layout {
+    width: 640px;
+    max-width: 640px;
+}
+
+@media screen and (max-width: 720px) {
+    .layout {
+        flex-wrap: wrap;
+        width: calc(100% - 1.4rem);
+        max-width: calc(100% - 1.4rem);
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .layout {
+        flex-wrap: wrap;
+        width: calc(100% - 1.4rem);
+        max-width: calc(100% - 1.4rem);
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+}

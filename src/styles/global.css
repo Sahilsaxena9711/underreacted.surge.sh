@@ -1,0 +1,47 @@
+@font-face {
+    font-family: mainFont;
+    src: url('./font/Anton-Regular.ttf');
+}
+  
+body, * {
+    font-family: mainFont !important;
+}
+
+h1 {
+    opacity: 0.9;
+}
+
+.html-text h1, h2, h3, h4, h5, a, li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.html-text a {
+    text-decoration: underline !important;
+    color: dodgerblue !important;
+}
+
+pre {
+    background-color: rgba(184, 184, 184, 0.3) !important;
+    padding: 0.5rem;
+    word-wrap: break-word !important;
+    border-radius: 0.2rem;
+    overflow: auto;
+}
+
+code {
+    font-size: 1rem !important;
+    word-wrap: break-word !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    background-color: rgba(184, 184, 184, 0.3) !important;
+    color: unset !important;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+a {
+    opacity: 0.8;
+    color: dodgerblue !important;
+    text-decoration: none !important;
+}

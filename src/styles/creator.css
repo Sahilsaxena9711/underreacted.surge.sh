@@ -1,0 +1,30 @@
+.creator{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar {
+    border: 1px solid #e7e7e7;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.about-creator-container {
+    margin-left: 0.6rem;
+}
+
+.creator-name {
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    color: dodgerblue !important;
+    text-decoration: underline !important;
+}
+
+.about-creator{
+    margin: 0;
+    font-size: 0.9em;
+}
