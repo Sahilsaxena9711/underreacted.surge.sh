@@ -1,9 +1,9 @@
 .footer {
     position: absolute;
-    display: flex;
+    /* display: flex; */
     margin-bottom: 2rem;
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row; */
+    /* align-items: center; */
 }
 .social {
     font-size: 1rem !important;
@@ -11,5 +11,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     cursor: pointer;
     text-decoration: underline !important;
-    margin-right: 2rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
 }

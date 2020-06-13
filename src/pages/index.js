@@ -12,7 +12,11 @@ const Home = ({ data }) => {
     <div className={"list-container"}>
       {data.allMarkdownRemark.edges.map((blog, k) =>
         <div className={"list-item"} key={k}>
-          <Link className={"title"} to={blog.node.fields.slug}>{blog.node.frontmatter.title}</Link>
+          <Link
+            className={"title"}
+            to={blog.node.fields.slug}
+            dangerouslySetInnerHTML={{ __html: blog.node.frontmatter.title }}
+          />
           <p className={"date"}>{blog.node.frontmatter.date}</p>
           <span className={"description"}>{blog.node.frontmatter.description}</span>
           <div dangerouslySetInnerHTML={blog.node.html} />

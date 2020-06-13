@@ -10,7 +10,7 @@ const BlogPosts = ({ data, pageContext, location }) => {
         <div className={"list-container list-item"}>
             <h2 className={"title"} style={{
                 fontSize: "1.5rem"
-            }}>{post.frontmatter.title}</h2>
+            }} dangerouslySetInnerHTML={{ __html: post.frontmatter.title }} />
             <div className={"html-text"} dangerouslySetInnerHTML={{ __html: post.html.split("class=").join("className=") }} />
         </div>
         <Creator />
