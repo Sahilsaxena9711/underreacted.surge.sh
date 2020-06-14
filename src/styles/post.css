@@ -12,7 +12,8 @@
 }
 
 .title {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
+    line-height: 1.6rem !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     font-weight: 900;
     color: dodgerblue !important;
@@ -21,9 +22,11 @@
 .date {
     font-size: 0.7rem !important;
     margin: 0;
+    opacity: 0.8;
 }
 
 .description {
     font-size: 1rem;
+    line-height: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }

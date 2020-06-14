@@ -3,6 +3,7 @@ sno: 3
 title: "Functional vs Class-Components in React"
 date: "12th June 2020"
 description: "Which is better class or functional components? \nLets find out!"
+time: 6
 ---
 
 ![Functional vs Class-Components](https://miro.medium.com/max/2698/1*QHPqOp2yWWJNZkEZAgKT8A.png)

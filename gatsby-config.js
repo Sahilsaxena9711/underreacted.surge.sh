@@ -11,7 +11,7 @@ module.exports = {
     title2: `react`,
     title3: `ed`,
     github: `https://github.com/Sahilsaxena9711`,
-    twitter: `https://twitter.com/SahilSa63821982`,
+    twitter: `https://twitter.com/sahil_saxenaJS`,
     npm: `https://www.npmjs.com/~sahilsaxena9711`
   },
   plugins: [

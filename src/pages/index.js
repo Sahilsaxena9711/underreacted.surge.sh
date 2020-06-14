@@ -6,7 +6,10 @@ import { graphql, Link } from "gatsby";
 import Creator from "../components/Creator";
 
 const Home = ({ data }) => {
-  console.log(data);
+  const calculateBeers = (time) => {
+    let beer = "🍺";
+    return beer.repeat(time / 5);
+  }
   return <Layout>
     <Creator />
     <div className={"list-container"}>
@@ -17,7 +20,7 @@ const Home = ({ data }) => {
             to={blog.node.fields.slug}
             dangerouslySetInnerHTML={{ __html: blog.node.frontmatter.title }}
           />
-          <p className={"date"}>{blog.node.frontmatter.date}</p>
+          <p className={"date"}>{blog.node.frontmatter.date} • {calculateBeers(blog.node.frontmatter.time)}{blog.node.frontmatter.time}min read</p>
           <span className={"description"}>{blog.node.frontmatter.description}</span>
           <div dangerouslySetInnerHTML={blog.node.html} />
         </div>
@@ -41,6 +44,7 @@ export const query = graphql`
             date
             description
             title
+            time
           }
           excerpt
         }

@@ -1,8 +1,9 @@
 ---
 sno: 4
-title: "Use Reducer then, useReducer &#x2693; now.."
+title: "Use Reducer then, useReducer &#x2693; now..."
 date: "13th June 2020"
 description: "Have you ever useReducer?"
+time: 11
 ---
 
 <br />
